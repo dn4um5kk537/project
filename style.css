@@ -1,6 +1,6 @@
 :root {
   --main-color: #ffd700;
-  --transparent-color: rgba(53, 212, 230, 0.7);
+  --transparent-color:#ffd9009a ;
   --section-padding: 100px;
 }
 /* End Variables */
@@ -206,6 +206,7 @@ header nav .form i {
   color: white;
   display: flex;
   justify-content: flex-end;
+  border-radius: 0 140px 25px 0;
 }
 .landing .text .content {
   max-width: 500px;
