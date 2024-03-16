@@ -314,6 +314,7 @@ header nav .form i {
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-position: center;
 }
 .design::before {
   content: "";
@@ -389,6 +390,12 @@ header nav .form i {
   overflow: hidden;
   position: relative;
 }
+.portfolio .imgs-container .box img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
 .portfolio .imgs-container .box:hover .caption {
   bottom: 0;
 }
